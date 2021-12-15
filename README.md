@@ -1,7 +1,6 @@
 # Back End Deployment
 
-class 34 : [Pull Request Link]()
-
+class 34 : [Pull Request Link](https://github.com/Mohammad-Abdul-Ghafour/cookie-stand-api/pull/1)
 
 <!-- # api-quick-start
 
@@ -27,5 +26,3 @@ Template Project for starting up CRUD API with Django Rest Framework
 - Rename `project/.env.sample` to `.env` and update as needed
 - Run makemigrations and migrate commands
 - Optional: Update `api_tester.py` -->
-
-
