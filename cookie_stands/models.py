@@ -1,4 +1,4 @@
-from django.contrib.auth import get_user_model
+from django.contrib.auth import get_user_model 
 from django.db import models
 
 
@@ -8,7 +8,7 @@ class CookieStand(models.Model):
     owner = models.ForeignKey(
         get_user_model(), on_delete=models.CASCADE, null=True, blank=True
     )
-    description = models.TextField(default="", null=True, blank=True)
+    # description = models.TextField(default="", null=True, blank=True)
     hourly_sales = models.JSONField(default=list, blank=True)
     minimum_customers_per_hour = models.IntegerField(default=0)
     maximum_customers_per_hour = models.IntegerField(default=0)
